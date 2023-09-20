@@ -1,10 +1,10 @@
 # Personal Portfolio
 
-Welcome to my portfolio websit repository. This project was created during my internship at *Codsoft* and serves as a showcase of my skills, experience, and projects. In this README file, I'll provide an overview of the project, setup instructions, and details about each section of the website.
+Welcome to my portfolio websit repository. This projectis a showcase of my skills, experience, and projects. In this README file, I'll provide an overview of the project, setup instructions, and details about each section of the website.
 
 ## Live Demo
 
-You can explore the live version of my portfolio website by visiting the following link: [Portfolio Demo](https://vermaharsha.github.io/CodSoft-Portfolio/).
+You can explore the live version of my portfolio website by visiting the following link: [Portfolio Demo](https://vermaharsha.github.io/Portfolio/).
 
 Feel free to navigate through the various sections and features to get a firsthand experience of my work.
 

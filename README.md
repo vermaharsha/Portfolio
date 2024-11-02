@@ -4,7 +4,7 @@ Welcome to my portfolio websit repository. This projectis a showcase of my skill
 
 ## Live Demo
 
-You can explore the live version of my portfolio website by visiting the following link: [Portfolio Demo](https://vermaharsha.github.io/Portfolio/).
+You can explore the live version of my portfolio website by visiting the following link: [Portfolio Demo](https://hrsv.vercel.app/).
 
 Feel free to navigate through the various sections and features to get a firsthand experience of my work.
 

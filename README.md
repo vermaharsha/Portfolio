@@ -1,4 +1,4 @@
-# HV Portfolio 
+# HV Portfolio
 
 Welcome to my portfolio websit repository. This projectis a showcase of my skills, experience, and projects. In this README file, I'll provide an overview of the project, setup instructions, and details about each section of the website.
 

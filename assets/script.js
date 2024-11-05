@@ -45,19 +45,6 @@ navLinks.forEach((link) => {
   });
 });
 
-/* ***************** scroll reveal ***************** */
-
-ScrollReveal({
-  reset: true,
-  distance: "200px",
-  delay: 200,
-});
-
-ScrollReveal().reveal(".home-content, .heading, .highlight", { origin: "top" });
-ScrollReveal().reveal(".home-img, .services-container, .portfolio-box", {
-  origin: "bottom",
-});
-ScrollReveal().reveal(".home-content h1, .about-img, .gif", { origin: "left" });
 
 /* **************** typed js ***************** */
 

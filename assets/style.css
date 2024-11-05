@@ -59,7 +59,7 @@ html::-webkit-scrollbar {
 
 .logo {
     font-size: 3rem;
-    color: var(--text-color);
+    color: var(--main-color);
     font-weight: 600;
     cursor: default;
 }

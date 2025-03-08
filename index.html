@@ -13,11 +13,9 @@
 
     <!-- link css -->
     <link rel="stylesheet" href="assets/style.css" />
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <!--******************** *header* ********************-->
-
+    <!-- Header -->
     <header class="header">
       <a href="#home" class="logo">Portfolio</a>
 
@@ -27,15 +25,12 @@
         <a href="#home" class="active">Home</a>
         <a href="#about">Who I'm</a>
         <a href="#services">Services</a>
-        <a href="#portfolio">Project</a>
+        <a href="#projects">Project</a>
         <a href="#contact">Reach Out</a>
       </nav>
     </header>
 
-    <!--*********************************************************-->
-
-    <!--******************** *home section* ******************** -->
-
+    <!-- Hero Section -->
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, It's Me</h3>
@@ -67,10 +62,7 @@
       </div>
     </section>
 
-    <!--******************************************************-->
-
-    <!--********************** *about* **********************-->
-
+    <!-- About Section -->
     <section class="about" id="about">
       <img src="assets/image/Mine1.png" alt="" />
       <div class="about-content">
@@ -87,10 +79,7 @@
       </div>
     </section>
 
-    <!--*********************************************************-->
-
-    <!-- ********************** *Services* ********************* -->
-
+    <!-- Service Section -->
     <section class="services" id="services">
       <h2 class="heading">My <span>Specializations</span></h2>
       <div class="services-container">
@@ -128,75 +117,69 @@
       </div>
     </section>
 
-    <!--*******************************************************-->
-
-    <!--********************* *skills* *********************-->
+    <!-- Skill Section -->
     <!--
     <section class="skills" id="skills">
       <h2 class="heading">My <span>Abilities</span></h2>
     </section>
   -->
 
-    <!--*******************************************************-->
-
-    <!--********************* *Portfolio* *********************-->
-
+    <!-- Project Section -->
     <section class="projects" id="projects">
       <h2 class="heading">Latest <span>Projects</span></h2>
       <div class="projects-container">
         <div class="project-box">
-          <h4>Heavenly Baked</h4>
+          <h4>User Management API</h4>
           <p>
-            Heavenly Baked, an internship project for a bakery website landing
-            page.
+            A backend service providing secure authentication, role-based access, and RESTful APIs for managing users, products, and a dashboard. <br>
+            <span>Tech Stack:</span> Node.js, Express.js, MongoDB, Mongoose, JWT, bcrypt, REST API, Role-Based Access Control (RBAC), Dashboard.
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/vermaharsha/BlueMedix" class="btn">View More</a>
         </div>
         <div class="project-box">
-          <h4>Docsy</h4>
+          <h4>DuAlert - Chrome Extension</h4>
           <p>
-            A project for seamless healthcare, helping you find hospitals,
-            schedule appointments, and more.
+            A Chrome extension preventing duplicate downloads by checking your drive before downloading files. Uses SHA-256 hashing for accurate duplicate detection. <br>
+            <span>Tech Stack:</span> JavaScript, Chrome Extensions API, File System Access API, SHA-256 Hashing, HTML, CSS.
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/7rajnishsharma/DuAlert" class="btn">View More</a>
         </div>
         <div class="project-box">
-          <h4>Calculator</h4>
+          <h4>Real-Time Chat Application</h4>
           <p>
-            Everyday math operations, a basic calculator for quick calculations.
+            A real-time chat application allowing users to join rooms and communicate instantly, built using WebSockets for seamless two-way messaging. <br>
+            <span>Tech Stack:</span> Node.js, Express.js, Socket.io, Nodemon, HTML, CSS, JavaScript.
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/vermaharsha/chat-app" class="btn">View More</a>
         </div>
         <div class="project-box">
-          <h4>Organica</h4>
+          <h4>News-App</h4>
           <p>
-            A platform connecting farmers and consumers, promoting
-            sustainability and healthy products.
+            A news application fetching top headlines from NewsAPI, allowing users to search, browse articles, and stay updated with the latest news. <br>
+            <span>Tech Stack:</span> Node.js, Express.js, EJS, Bootstrap, NewsAPI, Axios, Body-parser, Moment.js, Math.js.
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/vermaharsha/news-app" class="btn">View More</a>
         </div>
         <div class="project-box">
-          <h4>Tic Tac Toe</h4>
+          <h4>QR Code Generator</h4>
           <p>
-            Challenge friends with the classic Tic Tac Toe, a timeless game.
+            A web application generating QR codes instantly for text or URLs, featuring a user-friendly interface and error handling for empty inputs. <br>
+            <span>Tech Stack:</span> HTML, CSS, JavaScript, QR API.
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/vermaharsha/QR" class="btn">View More</a>
         </div>
         <div class="project-box">
-          <h4>Snake Game</h4>
+          <h4>Todo App</h4>
           <p>
-            A classic gaming experience where you eat, grow, and avoid
-            collisions.
+            An easy-to-use app for adding, organizing, and tracking daily tasks with a simple interface, secure access, and task completion options. <br>
+            <span>Tech Stack:</span> React.js, Vite, CSS, Firebase Firestore, Firebase Authentication, React Hooks, .env
           </p>
-          <a href="#" class="btn">View More</a>
+          <a href="https://github.com/vermaharsha/TodoApp" class="btn">View More</a>
         </div>
       </div>
     </section>
 
-    <!--****************************************************-->
-
-    <!--********************* *contact* *********************-->
-
+    <!-- Contact Section -->
     <section class="contact" id="contact">
       <div class="contact-container">
         <div class="contact-info box">
@@ -234,19 +217,7 @@
       </div>
     </section>
 
-    <!--****************************************************-->
-
-    <!--********************* *footer* *********************-->
-
-    <!-- <footer class="footer">
-      <div class="footer-text">
-        <p>
-          Made with ❤️ by <span>Harsha Verma</span> | &#169; All Rights
-          Reserved.
-        </p>
-      </div>
-    </footer> -->
-
+    <!-- Footer -->
     <footer class="footer">
       <div class="footer-text">
         <p>

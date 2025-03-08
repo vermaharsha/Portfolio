@@ -250,6 +250,7 @@ span {
 
 .services-box h3 {
     font-size: 2.2rem;
+    font-weight: normal;
     padding: 1.5rem;
 }
 
@@ -278,26 +279,23 @@ span {
 .projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
+    gap: 1.5rem;
 }
 
 .project-box {
     background: var(--second-bg-color);
     padding: 3rem 2rem;
-    border-radius: 2rem;
-    text-align: center;
+    border-radius: 1rem;
+    /* text-align: center; */
     box-shadow: 0 0 3rem #121212;
     transition: 0.5s ease;
 }
 
-.project-box:hover {
-    transform: scale(1.02);
-}
-
 .project-box h4 {
-    font-size: 3rem;
+    font-size: 2.2rem;
+    font-weight: bold;
     margin-bottom: 1rem;
-    color: var(--main-color);
+    color: var(--text-color);
 }
 
 .project-box p {

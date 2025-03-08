@@ -36,10 +36,8 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-/* ******************************************************* */
 
-/********************** header design ********************/
-
+/* Header */
 .header {
     position: fixed;
     top: 0;
@@ -82,10 +80,8 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-/* *********************************************** */
 
-/********************** home ********************/
-
+/* Hero Section */
 .home {
     display: flex;
     justify-content: center;
@@ -162,10 +158,8 @@ span {
     box-shadow: none;
 }
 
-/* ************************************************ */
 
-/********************** about ********************/
-
+/* About Section */
 .about {
     display: flex;
     justify-content: center;
@@ -176,7 +170,7 @@ span {
 
 .about img {
     border-radius: 50%;
-    padding: 10px solid #000000 ;
+    padding: 10px solid #000000;
     width: 25vw;
     box-shadow: 0 0 10rem #000000;
     animation: floatImage 4s ease-in-out infinite;
@@ -218,10 +212,8 @@ span {
     margin: 2rem 0 3rem;
 }
 
-/* **************************************************** */
 
-/*********************** services *********************/
-
+/* Service Section */
 .services h2 {
     margin-bottom: 3rem;
     font-size: 4rem;
@@ -266,99 +258,82 @@ span {
     margin: 1rem 0 3rem;
 }
 
-/* ***************************************************** */
 
-/*********************** portfolio *********************/
 
-.portfolio {
+/* Skill Section */
+
+
+/* Projects Section */
+.projects {
     background: var(--bg-color);
+    padding: 7rem 6%;
 }
 
-.portfolio h2 {
+.projects h2 {
     margin-bottom: 6rem;
     font-size: 4rem;
+    text-align: center;
 }
 
-.portfolio-container {
+.projects-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-items: center;
     gap: 2.5rem;
 }
 
-.portfolio-container .portfolio-box {
-    display: flex;
-    position: relative;
+.project-box {
+    background: var(--second-bg-color);
+    padding: 3rem 2rem;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
-    overflow: hidden;
-}
-
-.portfolio-box img {
-    width: 100%;
-    transition: .5s ease;
-}
-
-.portfolio-box:hover img {
-    transform: scale(1.1);
-}
-
-.portfolio-box .portfolio-layer {
-    display: flex;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
     text-align: center;
-    padding: 0 4rem;
-    transform: translateY(100%);
-    transition: .5s ease;
+    box-shadow: 0 0 3rem #121212;
+    transition: 0.5s ease;
 }
 
-.portfolio-box:hover .portfolio-layer {
-    transform: translateY(0);
+.project-box:hover {
+    transform: scale(1.02);
 }
 
-.portfolio-layer h4 {
+.project-box h4 {
     font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--main-color);
 }
 
-.portfolio-layer p {
+.project-box p {
     font-size: 1.6rem;
-    margin: .3rem 0 1rem;
+    margin-bottom: 2rem;
 }
 
-.portfolio-layer a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background: var(--text-color);
-    border-radius: 50%;
-}
-
-.portfolio-layer a i {
-    font-size: 2rem;
+/* Button style reusing theme */
+.btn {
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
     color: var(--bg-color);
+    letter-spacing: 0.1rem;
+    font-weight: 600;
+    transition: 0.5s ease;
+}
+
+.btn:hover {
+    box-shadow: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .projects-container {
+        grid-template-columns: 1fr;
+    }
 }
 
 
-/* *************************************************** */
-
-/*********************** skills *********************/
 
 
-
-/* *************************************************** */
-
-/*********************** contact *********************/
-
+/* Contact Section */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -425,10 +400,8 @@ span {
     box-shadow: 0 0 1rem var(--main-color);
 }
 
-/* *************************************************** */
 
-/*********************** footer *********************/
-
+/* Footer */
 .footer {
     display: flex;
     justify-content: center;
@@ -444,15 +417,12 @@ span {
     padding: 1rem;
 }
 
-.footer a{
+.footer a {
     color: var(--main-color);
 }
 
 
-/* ******************************************************** */
-
-/*********************** media query *********************/
-
+/* Media Query */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;

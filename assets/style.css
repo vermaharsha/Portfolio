@@ -268,8 +268,8 @@ button:hover,
 }
 
 .about-content p {
-    font-size: 2rem;
-    margin: 2rem 0 3rem;
+    font-size: 1.6rem;
+    margin: 4rem 0 5rem;
 }
 
 
@@ -373,7 +373,7 @@ button:hover,
 }
 
 .project-box p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin-bottom: 2rem;
 }
 

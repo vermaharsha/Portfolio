@@ -49,28 +49,28 @@ html::-webkit-scrollbar {
 
 
 .scroll-top {
-  position: fixed;
-  right: 20px;
-  bottom: 30px;
-  width: 45px;
-  height: 45px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #8B5CF6;
-  color: white;
-  font-size: 28px;
-  border-radius: 50%;
-  cursor: pointer;
-  opacity: 0;
-  pointer-events: none;
-  transition: all 0.3s ease;
-  z-index: 1000;
+    position: fixed;
+    right: 20px;
+    bottom: 30px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #8B5CF6;
+    color: white;
+    font-size: 28px;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    z-index: 1000;
 }
 
 .scroll-top.active {
-  opacity: 1;
-  pointer-events: auto;
+    opacity: 1;
+    pointer-events: auto;
 }
 
 
@@ -128,21 +128,16 @@ html::-webkit-scrollbar {
     height: 100vh;
 }
 
-.home-img {
-    padding: 6rem;
-}
 
-.home-img img {
-    width: 30vw;
+.home-content {
+    flex: 1;
+    text-align: center;
+    padding: 100px;
 }
 
 .home-content h3 {
     font-size: 3rem;
     font-weight: 700;
-}
-
-.home-content h3:nth-last-of-type(2) {
-    margin-bottom: 1rem;
 }
 
 span {
@@ -157,32 +152,34 @@ span {
 
 .home-content h3,
 .home-content h1 {
-  font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 .home-content p {
     font-size: 1.6rem;
 }
 
-
-.social-media a {
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  width: 3.5rem;
-  height: 3.5rem;
-  border: 2px solid var(--main-color);
-  border-radius: 9999px;
-  font-size: 1.8rem;
-  color: var(--main-color);
-  transition: 0.3s;
+.social-media {
+    padding: 1.5rem;
 }
 
+.social-media a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 9999px;
+    font-size: 1.8rem;
+    color: var(--main-color);
+    transition: 0.3s;
+}
 
 .social-media a:hover {
-  background: linear-gradient(135deg, var(--main-color), var(--highlight-color));
-  color: var(--bg-color);
-  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    background: linear-gradient(135deg, var(--main-color), var(--highlight-color));
+    color: var(--bg-color);
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
 }
 
 .btn {
@@ -199,10 +196,11 @@ span {
     transition: .5s ease;
 }
 
-button:hover, .view-resume:hover {
-  background: #5EEAD4;
-  color: #0F172A;
-  transition: all 0.3s ease;
+button:hover,
+.view-resume:hover {
+    background: #5EEAD4;
+    color: #0F172A;
+    transition: all 0.3s ease;
 }
 
 
@@ -239,7 +237,6 @@ button:hover, .view-resume:hover {
     }
 }
 
-
 .heading {
     /* position: relative; */
     display: block;
@@ -247,6 +244,7 @@ button:hover, .view-resume:hover {
     font-size: 2rem;
     margin-bottom: 2rem;
 }
+
 /* 
 .heading::after {
     content: "";
@@ -259,7 +257,6 @@ button:hover, .view-resume:hover {
     background: var(--main-color);
     border-radius: 1rem;
 } */
-
 
 .about-content h2 {
     text-align: left;
@@ -275,6 +272,8 @@ button:hover, .view-resume:hover {
     font-size: 2rem;
     margin: 2rem 0 3rem;
 }
+
+
 
 
 /* Service Section */
@@ -302,7 +301,6 @@ button:hover, .view-resume:hover {
     background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
-
 }
 
 .services-container .services-box:hover {
@@ -325,6 +323,7 @@ button:hover, .view-resume:hover {
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
 }
+
 
 
 
@@ -357,13 +356,10 @@ button:hover, .view-resume:hover {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-
 .project-box:hover {
-  transform: translateY(-4px);
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
 }
-
-
 
 .project-box h4 {
     font-size: 2.2rem;
@@ -381,7 +377,6 @@ button:hover, .view-resume:hover {
     font-size: 1.6rem;
     margin-bottom: 2rem;
 }
-
 
 /* Responsive adjustments */
 @media (max-width: 768px) {
@@ -418,7 +413,6 @@ button:hover, .view-resume:hover {
     height: 45rem;
 }
 
-
 .box h2 {
     font-size: 4rem;
     margin: 1rem 0 1rem;
@@ -442,10 +436,9 @@ button:hover, .view-resume:hover {
 }
 
 .social-icon:hover {
-  transform: scale(1.2);
-  color: #60A5FA;
+    transform: scale(1.2);
+    color: #60A5FA;
 }
-
 
 .social-icons a {
     display: inline-flex;

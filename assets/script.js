@@ -16,7 +16,7 @@ let scrollTopBtn = document.querySelector(".scroll-top");
 window.addEventListener("scroll", () => {
   let top = window.scrollY;
 
-  // section highlight
+  /* **************** section highlight **************** */
   sections.forEach((sec) => {
     let offset = sec.offsetTop - 150;
     let height = sec.offsetHeight;
@@ -30,10 +30,10 @@ window.addEventListener("scroll", () => {
     }
   });
 
-  // sticky navbar
+  /* **************** sticky navbar **************** */
   header.classList.toggle("sticky", top > 100);
 
-  // scroll-to-top button
+  /* **************** scroll-to-top button **************** */
   scrollTopBtn.classList.toggle("active", top > 300);
 });
 

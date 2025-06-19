@@ -27,7 +27,6 @@
     /* Charcoal Gray (optional) */
 }
 
-
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -46,7 +45,6 @@ section {
 html::-webkit-scrollbar {
     display: none;
 }
-
 
 .scroll-top {
     position: fixed;
@@ -120,6 +118,8 @@ html::-webkit-scrollbar {
 }
 
 
+
+
 /* Hero Section */
 .home {
     display: flex;
@@ -127,7 +127,6 @@ html::-webkit-scrollbar {
     align-items: center;
     height: 100vh;
 }
-
 
 .home-content {
     flex: 1;
@@ -244,19 +243,6 @@ button:hover,
     margin-bottom: 2rem;
 }
 
-/* 
-.heading::after {
-    content: "";
-    position: absolute;
-    bottom: -1rem;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 50%;
-    height: 0.3rem;
-    background: var(--main-color);
-    border-radius: 1rem;
-} */
-
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
@@ -271,6 +257,7 @@ button:hover,
     font-size: 1.6rem;
     margin: 4rem 0 5rem;
 }
+
 
 
 
@@ -321,6 +308,47 @@ button:hover,
 .services-box p {
     font-size: 1.4rem;
     margin: 1rem 0 3rem;
+}
+
+
+
+
+/* Skills Section */
+.skills-section {
+  background: var(--bg-color);
+  padding: 7rem 6%;
+  text-align: center;
+}
+
+.skills-section h2 {
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  border-radius: 1rem;
+  background: rgba(30, 41, 59, 0.6);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.1);
 }
 
 
@@ -383,6 +411,7 @@ button:hover,
         grid-template-columns: 1fr;
     }
 }
+
 
 
 
@@ -461,6 +490,9 @@ button:hover,
 }
 
 
+
+
+
 /* Footer */
 .footer {
     display: flex;
@@ -480,6 +512,9 @@ button:hover,
 .footer a {
     color: var(--main-color);
 }
+
+
+
 
 
 /* Media Query */

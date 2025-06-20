@@ -74,7 +74,7 @@ html::-webkit-scrollbar {
 
 
 
-/* Header */
+/* **************** Header **************** */
 .header {
     position: fixed;
     top: 0;
@@ -120,7 +120,7 @@ html::-webkit-scrollbar {
 
 
 
-/* Hero Section */
+/* **************** Hero Section **************** */
 .home {
     display: flex;
     justify-content: center;
@@ -182,7 +182,7 @@ button:hover,
 
 
 
-/* About Section */
+/* **************** About Section **************** */
 .about {
     display: flex;
     justify-content: center;
@@ -202,18 +202,15 @@ button:hover,
     0% {
         transform: translateY(0);
     }
-
     50% {
         transform: translateY(-2.4rem);
     }
-
     100% {
         transform: translateY(0);
     }
 }
 
 .heading {
-    /* position: relative; */
     display: block;
     text-align: center;
     font-size: 2rem;
@@ -227,19 +224,19 @@ button:hover,
 }
 
 .about-content h3 {
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 4rem 4rem 5rem 0;
+    margin: 2rem 4rem 5rem 0;
 }
 
 
 
 
 
-/* Service Section */
+/* **************** Service Section **************** */
 .services h2 {
     margin-bottom: 3rem;
     font-size: 4rem;
@@ -260,7 +257,6 @@ button:hover,
     text-align: center;
     box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
     transition: .5s ease;
-
     background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -290,7 +286,7 @@ button:hover,
 
 
 
-/* Skills Section */
+/* **************** Skills Section **************** */
 .skills-section {
     background: var(--bg-color);
     padding: 7rem 6%;
@@ -331,14 +327,15 @@ button:hover,
 
 
 
-/* Projects Section */
+/* **************** Projects Section **************** */
 .projects {
     background: var(--bg-color);
     padding: 7rem 6%;
 }
 
 .projects h2 {
-    margin-bottom: 6rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     font-size: 4rem;
     text-align: center;
 }
@@ -354,7 +351,6 @@ button:hover,
     border-radius: 1rem;
     box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
     transition: 0.5s ease;
-
     background: rgba(30, 41, 59, 0.6);
     backdrop-filter: blur(10px);
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -382,7 +378,7 @@ button:hover,
     margin-bottom: 2rem;
 }
 
-/* Responsive adjustments */
+/* **************** Responsive adjustments **************** */
 @media (max-width: 768px) {
     .projects-container {
         grid-template-columns: 1fr;
@@ -393,7 +389,7 @@ button:hover,
 
 
 
-/* Contact Section */
+/* **************** Contact Section **************** */
 .contact-container {
     display: flex;
     flex-wrap: wrap;
@@ -454,7 +450,7 @@ button:hover,
 
 
 
-/* Footer */
+/* **************** Footer **************** */
 .footer {
     display: flex;
     justify-content: center;
@@ -478,7 +474,7 @@ button:hover,
 
 
 
-/* Media Query */
+/* **************** Media Query **************** */
 @media (max-width: 1200px) {
     html {
         font-size: 55%;

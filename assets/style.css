@@ -93,16 +93,16 @@ html::-webkit-scrollbar {
 }
 
 .logo {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--main-color);
     font-weight: 600;
     cursor: default;
 }
 
 .navbar a {
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: var(--text-color);
-    margin-left: 4rem;
+    margin-left: 3rem;
     transition: .3s;
 }
 
@@ -158,34 +158,11 @@ span {
     font-size: 1.6rem;
 }
 
-.social-media {
-    padding: 1.5rem;
-}
-
-.social-media a {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    width: 3.5rem;
-    height: 3.5rem;
-    border: 2px solid var(--main-color);
-    border-radius: 9999px;
-    font-size: 1.8rem;
-    color: var(--main-color);
-    transition: 0.3s;
-}
-
-.social-media a:hover {
-    background: linear-gradient(135deg, var(--main-color), var(--highlight-color));
-    color: var(--bg-color);
-    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
-}
-
 .btn {
     display: inline-block;
     padding: 1rem 2.8rem;
+    margin: 1rem;
     background: linear-gradient(135deg, var(--main-color), var(--highlight-color));
-
     border-radius: 4rem;
     box-shadow: none;
     font-size: 1.6rem;
@@ -255,7 +232,7 @@ button:hover,
 
 .about-content p {
     font-size: 1.6rem;
-    margin: 4rem 0 5rem;
+    margin: 4rem 4rem 5rem 0;
 }
 
 
@@ -315,40 +292,40 @@ button:hover,
 
 /* Skills Section */
 .skills-section {
-  background: var(--bg-color);
-  padding: 7rem 6%;
-  text-align: center;
+    background: var(--bg-color);
+    padding: 7rem 6%;
+    text-align: center;
 }
 
 .skills-section h2 {
-  font-size: 4rem;
-  margin-bottom: 3rem;
-  font-weight: bold;
+    font-size: 4rem;
+    margin-bottom: 3rem;
+    font-weight: bold;
 }
 
 .skills-grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
-  justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
 }
 
 .skill-item {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 80px;
-  height: 80px;
-  border-radius: 1rem;
-  background: rgba(30, 41, 59, 0.6);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
-  transition: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 85px;
+    height: 85px;
+    border-radius: 1rem;
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+    transition: transform 0.3s ease;
 }
 
 .skill-item:hover {
-  transform: scale(1.1);
+    transform: scale(1.1);
 }
 
 
@@ -432,15 +409,6 @@ button:hover,
     align-items: start;
 }
 
-.png {
-    align-items: center;
-    margin: auto;
-}
-
-.png img {
-    height: 45rem;
-}
-
 .box h2 {
     font-size: 4rem;
     margin: 1rem 0 1rem;
@@ -448,13 +416,13 @@ button:hover,
 }
 
 .box p {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin: 2rem 0 2rem;
     text-align: start;
 }
 
 .highlight {
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-color);
 }
@@ -463,24 +431,17 @@ button:hover,
     font-size: 2rem;
 }
 
-.social-icon:hover {
-    transform: scale(1.2);
-    color: #60A5FA;
-}
-
 .social-icons a {
     display: inline-flex;
     justify-content: center;
     align-items: center;
-    width: 4rem;
-    height: 4rem;
-    background: transparent;
-    border: .2rem solid var(--main-color);
-    border-radius: 50%;
-    font-size: 2.5rem;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid var(--main-color);
+    border-radius: 9999px;
+    font-size: 1.8rem;
     color: var(--main-color);
-    margin: 1rem 1.5rem 2rem 0;
-    transition: .5s ease;
+    transition: 0.3s;
 }
 
 .social-icons a:hover {
@@ -504,7 +465,7 @@ button:hover,
 }
 
 .footer-text p {
-    font-size: 2.2rem;
+    font-size: 1.6rem;
     text-align: center;
     padding: 1rem;
 }
@@ -534,11 +495,7 @@ button:hover,
     }
 
     .about img {
-        width: 10vw;
-    }
-
-    .portfolio {
-        padding-bottom: 5rem;
+        width: 30vw;
     }
 
     .footer {
@@ -577,45 +534,49 @@ button:hover,
         flex-direction: column;
     }
 
-    .home-content h3 {
-        font-size: 3rem;
+    .home-content {
+        padding: 3rem;
+        margin: auto;
+        margin-top: 5rem;
     }
 
     .home-content h1 {
         font-size: 6rem;
     }
 
+    .home-content h3 {
+        font-size: 3rem;
+    }
+
     .about {
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .about img {
-        padding: 5rem;
-        width: 100%;
-    }
-
-    .home-content {
         padding: 3rem;
-        margin: auto;
+        width: 40vw
     }
 
-    .portfolio h2 {
-        margin-bottom: 4rem;
+    .services-container p {
+        font-size: 1.5rem;
     }
 
-    .portfolio-container {
-        grid-template-columns: repeat(2, 1fr);
+    .project-box p {
+        font-size: 1.6rem;
+    }
+
+    .contact p .highlight {
+        font-size: 2rem;
     }
 
     .contact-container {
         flex-direction: column;
     }
-
 }
 
 @media (max-width: 617px) {
-    .portfolio-container {
-        grid-template-columns: 1fr;
+    .home-content {
+        margin-top: 100px;
     }
 }
 
@@ -623,11 +584,66 @@ button:hover,
     html {
         font-size: 50%;
     }
+
+    .home-content {
+        margin-top: 100px;
+    }
+
+    .about img {
+        width: 70vw;
+    }
+
+    .services-box p {
+        font-size: 1.6rem;
+    }
+
+    .skill-item {
+        width: 70px;
+        height: 70px;
+    }
+
+    .project-box p {
+        font-size: 1.6rem;
+    }
+
+    .contact p .highlight {
+        font-size: 1.9rem;
+    }
 }
 
 @media (max-width: 365px) {
+    .home-content {
+        margin-top: 5rem;
+        padding: 50px 0 0 0;
+    }
+
+    .home-content h1 {
+        font-size: 4.8rem;
+    }
+
+    .home-content h3 {
+        font-size: 2.5rem;
+    }
+
     .about img {
         width: 90vw;
+    }
+
+    .services-box p {
+        font-size: 1.5rem;
+    }
+
+    .skill-item {
+        width: 70px;
+        height: 70px;
+    }
+
+    .project-box p {
+        font-size: 1.5rem;
+    }
+
+    .contact p .highlight {
+        font-size: 1.7rem;
     }
 
     .footer {
@@ -636,7 +652,5 @@ button:hover,
 
     .footer p {
         text-align: center;
-        margin-top: 2rem;
     }
-
 }

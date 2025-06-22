@@ -91,13 +91,18 @@ html::-webkit-scrollbar {
 .header.sticky {
     border-bottom: .2rem solid rgba(0, 0, 0, .2);
 }
+.logo-img {
+  height: 40px;
+  width: auto;
+  object-fit: contain;
+}
 
 .logo {
-    font-size: 2.5rem;
-    color: var(--main-color);
-    font-weight: 600;
-    cursor: default;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
 }
+
 
 .navbar a {
     font-size: 1.5rem;

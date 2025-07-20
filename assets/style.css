@@ -92,16 +92,28 @@ html::-webkit-scrollbar {
     border-bottom: .2rem solid rgba(0, 0, 0, .2);
 }
 
-.logo-img {
-    height: 40px;
-    width: auto;
-    object-fit: contain;
+
+.logo-symbol {
+  font-family: 'Fira Mono', monospace; 
+  font-size: 2.7rem; 
+  font-weight: 900;
+  color: var(--main-color);
+  margin-right: 0.24rem;
+  letter-spacing: -1.5px;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
 }
 
-.logo {
-    display: flex;
-    align-items: center;
-    cursor: pointer;
+.logo-text {
+  font-size: 2.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: var(--text-color);
+  letter-spacing: -1px;
+  vertical-align: middle;
+  line-height: 1;
+  display: inline-block;
 }
 
 

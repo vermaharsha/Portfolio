@@ -27,6 +27,7 @@
     /* Charcoal Gray (optional) */
 }
 
+
 html {
     font-size: 62.5%;
     overflow-x: hidden;
@@ -343,6 +344,7 @@ button:hover,
 .skill-item:hover {
     transform: scale(1.1);
 }
+
 
 
 

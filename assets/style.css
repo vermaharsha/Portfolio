@@ -91,16 +91,17 @@ html::-webkit-scrollbar {
 .header.sticky {
     border-bottom: .2rem solid rgba(0, 0, 0, .2);
 }
+
 .logo-img {
-  height: 40px;
-  width: auto;
-  object-fit: contain;
+    height: 40px;
+    width: auto;
+    object-fit: contain;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
-  cursor: pointer;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 
 
@@ -207,9 +208,11 @@ button:hover,
     0% {
         transform: translateY(0);
     }
+
     50% {
         transform: translateY(-2.4rem);
     }
+
     100% {
         transform: translateY(0);
     }
@@ -550,12 +553,33 @@ button:hover,
     }
 
     .about {
-        flex-direction: row;
+        flex-direction: column;
+        gap: 3rem;
+        align-items: center;
+        text-align: center;
+    }
+
+    .about-content {
+        margin: 0;
+        padding: 0 1.5rem;
+        width: 100%;
+    }
+
+    .about-content h2 {
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .about-content p {
+        margin: 2rem 0 3rem 0;
+        font-size: 1.5rem;
+        text-align: center;
     }
 
     .about img {
-        padding: 3rem;
-        width: 40vw
+        width: 48vw;
+        max-width: 240px;
+        padding: 0;
     }
 
     .services-container p {
@@ -580,6 +604,18 @@ button:hover,
         margin-top: 100px;
     }
 }
+
+@media (max-width: 480px) {
+    .about img {
+        width: 70vw;
+        max-width: 320px;
+    }
+
+    .about-content {
+        padding: 0 0.5rem;
+    }
+}
+
 
 @media (max-width: 450px) {
     html {

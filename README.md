@@ -37,3 +37,8 @@ The Contact section includes my contact information, making it effortless for vi
 The Footer section contains a copyright notice and any additional links or information that I choose to include.
 
 Happy exploring! If you have any questions or require further assistance, please feel free to reach out.
+
+
+## Author 💻
+Made with love by [Harsha Verma](https://github.com/vermaharsha)
+

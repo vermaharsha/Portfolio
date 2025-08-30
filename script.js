@@ -32,9 +32,6 @@ window.addEventListener("scroll", () => {
 
   /* **************** sticky navbar **************** */
   header.classList.toggle("sticky", top > 100);
-
-  /* **************** scroll-to-top button **************** */
-  scrollTopBtn.classList.toggle("active", top > 300);
 });
 
 /* ************ remove toggle icon & navbar when clicking navbar link (scroll) ************ */

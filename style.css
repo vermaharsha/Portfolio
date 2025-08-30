@@ -735,3 +735,11 @@ button:hover,
         text-align: center;
     }
 }
+
+/* 
+@media (min-width: 1600px) {
+  .header, .header.sticky .footer, section{
+    max-width: 1400px;
+    margin: 0 auto !important;
+  }
+} */

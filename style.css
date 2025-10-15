@@ -19,8 +19,6 @@
     /* Navy Slate */
     --main-color: #8746EB;
     /* Soft Violet (Accent) */
-    --highlight-color: #5EEAD4;
-    /* Aqua Mint */
     --text-color: #F1F5F9;
     /* Light Gray */
     --text-dark: #334155;
@@ -54,30 +52,6 @@ html::-webkit-scrollbar {
     display: none;
 }
 
-.scroll-top {
-    position: fixed;
-    right: 20px;
-    bottom: 30px;
-    width: 45px;
-    height: 45px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #8B5CF6;
-    color: white;
-    font-size: 28px;
-    border-radius: 50%;
-    cursor: pointer;
-    opacity: 0;
-    pointer-events: none;
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.scroll-top.active {
-    opacity: 1;
-    pointer-events: auto;
-}
 
 
 
@@ -167,7 +141,7 @@ html::-webkit-scrollbar {
 .navbar a {
     font-size: 1.5rem;
     color: var(--text-color);
-    margin-left: 3rem;
+    margin-left: 1.5rem;
     transition: .3s;
 }
 
@@ -204,10 +178,6 @@ html::-webkit-scrollbar {
     font-weight: 700;
 }
 
-/* span {
-    color: var(--main-color);
-} */
-
 span {
   color: var(--main-color);
   text-shadow: 0px 4px 34px rgba(129, 81, 255, 0.6);
@@ -241,13 +211,6 @@ span {
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
-}
-
-button:hover,
-.view-resume:hover {
-    background: #5EEAD4;
-    color: #0F172A;
-    transition: all 0.3s ease;
 }
 
 
@@ -293,7 +256,7 @@ button:hover,
 .about-content h2 {
     text-align: left;
     line-height: 1.2;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .about-content h3 {
@@ -313,7 +276,7 @@ button:hover,
 /* **************** Service Section **************** */
 .services h2 {
     margin-bottom: 3rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
 }
 
 .services-container {
@@ -368,7 +331,7 @@ button:hover,
 }
 
 .skills-section h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin-bottom: 3rem;
     font-weight: bold;
 }
@@ -405,7 +368,7 @@ button:hover,
 /* **************** Experience Section **************** */
 .experience h2 {
   margin-bottom: 3rem;
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 .experience-container {
@@ -482,7 +445,7 @@ button:hover,
 .projects h2 {
     margin-top: 2rem;
     margin-bottom: 3rem;
-    font-size: 4rem;
+    font-size: 3.5rem;
     text-align: center;
 }
 
@@ -566,7 +529,7 @@ button:hover,
 }
 
 .box h2 {
-    font-size: 4rem;
+    font-size: 3.5rem;
     margin: 1rem 0 0 0;
     text-align: start;
 }
@@ -608,6 +571,28 @@ button:hover,
     box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
 }
 
+/* **************** Responsive adjustments **************** */
+@media (max-width: 768px) {
+    .contact p .highlight {
+        font-size: 2rem;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 450px) {
+    .contact p .highlight {
+        font-size: 1.9rem;
+    }
+}
+
+@media (max-width: 365px) {
+    .contact p .highlight {
+        font-size: 1.7rem;
+    }
+}
 
 
 
@@ -744,13 +729,6 @@ button:hover,
         font-size: 1.6rem;
     }
 
-    .contact p .highlight {
-        font-size: 2rem;
-    }
-
-    .contact-container {
-        flex-direction: column;
-    }
 }
 
 @media (max-width: 617px) {
@@ -796,10 +774,6 @@ button:hover,
     .project-box p {
         font-size: 1.6rem;
     }
-
-    .contact p .highlight {
-        font-size: 1.9rem;
-    }
 }
 
 @media (max-width: 365px) {
@@ -831,10 +805,6 @@ button:hover,
 
     .project-box p {
         font-size: 1.5rem;
-    }
-
-    .contact p .highlight {
-        font-size: 1.7rem;
     }
 
     .footer {

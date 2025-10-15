@@ -81,6 +81,45 @@ html::-webkit-scrollbar {
 
 
 
+/* **************** Subheading (Universal) **************** */
+.subheading {
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.75);
+  margin-top: -2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1;
+  letter-spacing: 0.1px;
+}
+
+
+/* **************** Responsive Adjustments **************** */
+@media (max-width: 768px) {
+  .subheading {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .subheading {
+    font-size: 1.5rem;
+    margin-bottom: 1.8rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .subheading {
+    font-size: 1.4rem;
+    margin-bottom: 1.6rem;
+  }
+}
+
+
 
 /* **************** Header **************** */
 .header {
@@ -358,6 +397,77 @@ button:hover,
 .skill-item:hover {
     transform: scale(1.1);
 }
+
+
+
+
+
+/* **************** Experience Section **************** */
+.experience h2 {
+  margin-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.experience-container .experience-box {
+  flex: 1 1 35rem;
+  padding: 3rem 2rem 1rem 2rem;
+  border-radius: 2rem;
+  text-align: left;
+  box-shadow: 0 4px 20px rgba(139, 92, 246, 0.2);
+  transition: 0.5s ease;
+  background: var(--second-bg-color);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+.experience-box i {
+  font-size: 6rem;
+  color: var(--main-color);
+  display: block;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.experience-box h3 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.experience-box p {
+  font-size: 1.4rem;
+  line-height: 1.7;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  .experience-box p {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 450px) {
+  .experience-box p {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 365px) {
+  .experience-box p {
+    font-size: 1.5rem;
+  }
+}
+
 
 
 
@@ -735,11 +845,3 @@ button:hover,
         text-align: center;
     }
 }
-
-/* 
-@media (min-width: 1600px) {
-  .header, .header.sticky .footer, section{
-    max-width: 1400px;
-    margin: 0 auto !important;
-  }
-} */

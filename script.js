@@ -7,11 +7,10 @@ menuIcon.onclick = () => {
   navbar.classList.toggle("active");
 };
 
-/* **************** scroll sections active link + sticky navbar + scroll-top btn ***************** */
+/* **************** scroll sections active link + sticky navbar ***************** */
 let sections = document.querySelectorAll("section");
 let navLinks = document.querySelectorAll("header nav a");
 let header = document.querySelector("header");
-let scrollTopBtn = document.querySelector(".scroll-top");
 
 window.addEventListener("scroll", () => {
   let top = window.scrollY;

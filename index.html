@@ -52,7 +52,7 @@
       "image": "https://hrsv.vercel.app/image/harsha.png",
       "sameAs": [
         "https://github.com/vermaharsha",
-        "https://www.linkedin.com/in/vermaharsha/"
+        "https://www.linkedin.com/in/verma-harsha/"
       ],
       "jobTitle": "Full-Stack Developer",
       "description": "Harsha Verma Portfolio – Full-Stack Developer specializing in MERN stack, UI/UX design, Chrome Extensions, and SEO-friendly web applications.",
@@ -101,7 +101,6 @@
 
     <nav class="navbar">
       <a href="#home" class="active">Home</a>
-      <a href="#about">Who I'm</a>
       <a href="#services">Services</a>
       <a href="#skills">Skills</a>
       <a href="#experience">Experience</a>
@@ -112,7 +111,7 @@
 
 
   <!-- **************** Hero Section **************** -->
-  <section id="home">
+  <section id="home" class="screen-max-width">
     <div class="home-content">
       <h3 class="secondary-text">Hello, It's Me</h3>
       <h1>
@@ -134,7 +133,7 @@
 
 
   <!-- **************** About Section **************** -->
-  <section class="about" id="about">
+  <section class="about screen-max-width" id="about">
     <img src="image/harsha.png" alt="Harsha Verma" />
     <div class="about-content">
       <h2 class="heading">Who I'm</h2>
@@ -151,9 +150,9 @@
   </section>
 
   <!-- **************** Service Section **************** -->
-  <section class="services" id="services">
+  <section class="services screen-max-width" id="services">
     <h2 class="heading">My Specializations</h2>
-    <p class="subheading">Where I bring value — Frontend, Backend, and Design expertise.</p>
+    <p class="subheading">I bring value through Frontend, Backend, and Design expertise.</p>
     <div class="services-container">
       <div class="services-box">
         <i class="bx bx-desktop"></i>
@@ -190,7 +189,7 @@
 
 
   <!-- **************** Skills Section **************** -->
-  <section class="skills-section" id="skills">
+  <section class="skills-section screen-max-width" id="skills">
     <h2 class="heading">My Skills</h2>
     <p class="subheading">Technologies and tools I use to bring ideas to life.</p>
 
@@ -220,7 +219,7 @@
 
 
   <!-- **************** Experience Section **************** -->
-  <section class="experience" id="experience">
+  <section class="experience screen-max-width" id="experience">
     <h2 class="heading">Work Highlights</h2>
     <p class="subheading">Key roles and impactful projects that define my journey.</p>
 
@@ -260,16 +259,28 @@
 
 
   <!-- **************** Project Section **************** -->
-  <section class="projects" id="projects">
+  <section class="projects screen-max-width" id="projects">
     <h2 class="heading">Latest Projects</h2>
     <p class="subheading">Showcasing real-world projects built with creativity and precision.</p>
 
     <div class="projects-container">
       <div class="project-box">
         <!-- <div class="project-img">
+          <img src="image/projects/QR-code.png" alt="QR Code Generator" />
+        </div> -->
+        <h3>UConvert - File Converter</h3>
+        <p class="secondary-text">
+          Full-stack web app for instant image format conversion with sleek glassmorphism UI, drag & drop uploads, live previews, and instant downloads. <br />
+          <!-- <span>Tech Stack:</span> HTML, CSS, JavaScript, QR API. -->
+        </p>
+        <a href="https://github.com/vermaharsha/UConvert" class="btn">View More</a>
+      </div>
+
+      <div class="project-box">
+        <!-- <div class="project-img">
           <img src="image/projects/user-management-api.png" alt="User Management API" />
         </div> -->
-        <h4>User Management API</h4>
+        <h3>User Management API</h3>
         <p class="secondary-text">
           A backend service with authentication, role-based access, and
           RESTful APIs for managing users, products, and a secure dashboard.
@@ -283,7 +294,7 @@
         <!-- <div class="project-img">
           <img src="image/projects/dualert.png" alt="DuAlert - Chrome Extension" />
         </div> -->
-        <h4>DuAlert - Chrome Extension</h4>
+        <h3>DuAlert - Chrome Extension</h3>
         <p class="secondary-text">
           A Chrome extension that prevents duplicate downloads by scanning
           folders and comparing files before saving, ensuring storage
@@ -297,7 +308,7 @@
         <!-- <div class="project-img">
           <img src="image/projects/Chat-app.png" alt="Real-Time Chat Application" />
         </div> -->
-        <h4>Real-Time Chat Application</h4>
+        <h3>Real-Time Chat Application</h3>
         <p class="secondary-text">
           A chat app with room-based instant messaging using WebSockets,
           ensuring seamless real-time communication with a responsive
@@ -311,7 +322,7 @@
         <!-- <div class="project-img">
           <img src="image/projects/news-app.png" alt="News-App" />
         </div> -->
-        <h4>News-App</h4>
+        <h3>News-App</h3>
         <p class="secondary-text">
           A news application fetching top headlines from NewsAPI, allowing
           users to search, read articles, and stay updated with trending news
@@ -323,22 +334,9 @@
       </div>
       <div class="project-box">
         <!-- <div class="project-img">
-          <img src="image/projects/QR-code.png" alt="QR Code Generator" />
-        </div> -->
-        <h4>QR Code Generator</h4>
-        <p class="secondary-text">
-          A web application generating QR codes instantly for text or URLs,
-          with a user-friendly interface, error handling, and responsive
-          design for smooth accessibility. <br />
-          <!-- <span>Tech Stack:</span> HTML, CSS, JavaScript, QR API. -->
-        </p>
-        <a href="https://github.com/vermaharsha/QR" class="btn">View More</a>
-      </div>
-      <div class="project-box">
-        <!-- <div class="project-img">
           <img src="image/projects/todo-app.png" alt="Todo App" />
         </div> -->
-        <h4>Todo App</h4>
+        <h3>Todo App</h3>
         <p class="secondary-text">
           An app for adding, organizing, and tracking tasks with a simple
           interface, secure access, and features like completion tracking and
@@ -355,10 +353,9 @@
 
 
   <!-- **************** Contact Section **************** -->
-  <section class="contact" id="contact">
+  <section class="contact screen-max-width" id="contact">
   <div class="contact-container">
     <div class="contact-header">
-      <i class="bx bxs-envelope contact-icon"></i>
       <h2 class="heading">Get in Touch</h2>
       <p class="subheading">Have a project in mind? Let's create something amazing together.</p>
     </div>
@@ -372,25 +369,26 @@
         <input type="checkbox" name="botcheck" style="display:none;">
 
         <label for="name">Name</label>
-        <input type="text" name="name" placeholder="Your name" required>
+        <input id="name" type="text" name="name" placeholder="Your name" required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" placeholder="your.email@example.com" required>
+        <input id="email" type="email" name="email" placeholder="your.email@example.com" required>
 
         <label for="message">Message</label>
-        <textarea name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
+        <textarea id="message" name="message" placeholder="Tell me about your project..." rows="5" required></textarea>
 
-        <button type="submit"><i class="bx bx-send"></i> Send Message</button>
+        <button class="btn" type="submit"><i class="bx bx-send"></i> Send Message</button>
       </form>
     </div>
 
     <p class="social-text">Or connect with me on</p>
     <div class="social-icons">
       <a href="https://github.com/vermaharsha"><i class="bx bxl-github"></i></a>
-      <a href="https://www.linkedin.com/in/vermaharsha/"><i class="bx bxl-linkedin-square"></i></a>
+      <a href="https://www.linkedin.com/in/verma-harsha/"><i class="bx bxl-linkedin-square"></i></a>
     </div>
   </div>
 </section>
+
 
 
 

@@ -44,11 +44,12 @@ navLinks.forEach((link) => {
 
 /* **************** Contact Form Submission Alert **************** */
 // Form submission with JavaScript
-document.getElementById("form").addEventListener("submit", async function(e) {
+document.getElementById("contactForm").addEventListener("submit", async function (e) {
   e.preventDefault();
 
   const formData = new FormData(this);
-  const submitButton = this.querySelector("button[type="submit"]");
+  const submitButton = this.querySelector('button[type="submit"]');
+
   const originalText = submitButton.textContent;
 
   try {

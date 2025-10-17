@@ -502,7 +502,7 @@ span {
 .contact {
     background: var(--bg-color);
     color: var(--text-color);
-    padding: 8rem 2rem;
+    padding: 8rem 2rem 0 2rem;
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
@@ -582,6 +582,18 @@ span {
   border: 0.2rem solid var(--primary);
   box-shadow: 0 0 15px rgba(123, 70, 248, 0.6);
   transform: scale(1.1);
+}
+
+.layered-peaks {
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+}
+
+.layered-peaks img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* Responsive */
